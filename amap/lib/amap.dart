@@ -10,8 +10,8 @@ class Amap {
     return version;
   }
 
-  initAmap() async {
-    var result = await _channel.invokeMethod("init");
+  initAmap(String key) async {
+    var result = await _channel.invokeMethod("init",{"key":key});
     if (result["result"] == "OK") {
       return "OK";
     } else {
