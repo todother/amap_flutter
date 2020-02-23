@@ -10,7 +10,7 @@ class Amap {
     return version;
   }
 
-  static Future<String> initAmap() async {
+  initAmap() async {
     var result = await _channel.invokeMethod("init");
     if (result["result"] == "OK") {
       return "OK";

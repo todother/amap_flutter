@@ -7,7 +7,7 @@
 Pod::Spec.new do |s|
   
   s.name             = 'amap'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A new flutter plugin project.'
   s.description      = <<-DESC
 A new flutter plugin project.
@@ -27,5 +27,7 @@ A new flutter plugin project.
   s.dependency 'AMapSearch'
   s.dependency 'AMapLocation'
   s.dependency 'AMapNavi'
+#  s.dependency 'AMap3DMap'
+  s.ios.deployment_target= "10.0"
   
 end

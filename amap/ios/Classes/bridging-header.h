@@ -9,8 +9,7 @@
 #define bridging_header_h
 
 //#import <MAMapKit/MAMapKit.h>
-#import <AMapNaviKit/AMapNaviKit.h>
-#import <AMapFoundationKit/AMapFoundationKit.h>
-#import <CoreLocation/CoreLocation.h>
-#import "MaMapView.h"
+//#import <AMapNaviKit/AMapNaviKit.h>
+//#import <AMapFoundationKit/AMapFoundationKit.h>
+//#import <CoreLocation/CoreLocation.h>
 #endif /* bridging_header_h */
